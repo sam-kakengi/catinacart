@@ -1,0 +1,159 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #7EB09B;
+    color: #432000;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.aldi,
+.tesco {
+    background-color: #0B7A75;
+    color: white;
+}
+
+
+
+#add-button,
+.aldi,
+.tesco {
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+#add-button {
+    width: 350px;
+    margin: 0 auto;
+    background-color: #3F88C5;
+    color: #FDFDFD;
+    
+}
+
+#add-button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #C5C9A4;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
+
+.aldi,
+.tesco {
+    width: 150px;
+    
+}
+
+.aldi:hover,
+.tesco:hover,
+.aldi:focus,
+.tesco:focus {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.aldi-title {
+    color: white;
+}
+
+.tesco-title {
+    color: red;
+}
+
+.aldi-section {
+    
+    background-color: #0582CA;
+    border: solid 3px yellow;
+    height: 100%;
+}
+
+.aldi-second-border {
+    border: solid 2px red;
+    border-radius: 13px;
+}
+
+.tesco-section {
+    background-color: white;
+    position: relative;
+    border: solid 3px blue;
+}
+
+
+.aldi-section,
+.tesco-section {
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+
+}
+
+.no-items {
+    margin: 0 auto;
+}
+
+.full-shopping-list {
+    
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
